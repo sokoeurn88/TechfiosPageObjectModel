@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name = "TestingSuite">
+	
+	<test name = "addingContact">
+	
+	<parameter name = "loginemail" value = "techfiosdemo@gmail.com"/>
+	<parameter name = "password" value = "abc123"/>
+	<parameter name = "Name" value = "sokoeurn chhay"/>
+	<parameter name = "Company" value = "Nokia"/>
+	<parameter name = "Email" value = "sokoeurn.chhaya@gmail.com"/>
+	<parameter name = "Phone" value = "5012153790"/>
+	<parameter name = "Address" value = "5550 Spring valley rd"/>
+	<parameter name = "City" value = "Dallas"/>
+	<parameter name = "State" value = "Texas"/>
+	<parameter name = "Zip" value = "75054"/>
+	
+	<Classes>
+	
+	<class name = "test.AddContactTest"/>
+	
+	</Classes>
+	
+	</test>
+	
+	
+</suite>
+
